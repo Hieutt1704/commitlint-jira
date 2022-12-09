@@ -1,4 +1,4 @@
-import { commitlintJiraConstants } from '@noahlaux/commitlint-jira-utils'
+import { commitlintJiraConstants } from 'commitlint-jira-utils'
 import { CommitlintConfigJira } from '../@types'
 
 export const commitlintConfigJira: CommitlintConfigJira = {
