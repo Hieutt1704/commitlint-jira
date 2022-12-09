@@ -93,18 +93,6 @@ git commit -m"IB-2121, IB-21: My commit message body"
 git commit -m"IB-21: My commit message body"
 ```
 
-`jira-task-id-separator` - this rule check if taskId header and footer is separated with provided value.
-
-```bash
-// Preconfigured and recommended value in commitlint-config-jira is "-"
-// ❌ Bad commit messages
-git commit -m"IB/21: My commit message body"
-git commit -m"IB_21 :My commit message body"
-// ✅ Good commit messages
-git commit -m"IB-2121, IB-21: My commit message body"
-git commit -m"IB-21: My commit message body"
-```
-
 `jira-task-id-project-key` - this rule check if commit message task id starts with specific project key.
 
 ```bash

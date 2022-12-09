@@ -3,12 +3,6 @@ import { CommitlintConfigJira } from '../@types'
 
 export const commitlintConfigJira: CommitlintConfigJira = {
   rules: {
-    // 1 -> because useful on parsing
-    [commitlintJiraConstants.JIRA_RULES.commitMessageSeparator]: [
-      2,
-      'always',
-      commitlintJiraConstants.COMMIT_MESSAGE_SEPARATOR,
-    ],
     // 2 -> because useful also on parsing
     [commitlintJiraConstants.JIRA_RULES.taskIdEmpty]: [2, 'always'],
     // 3 -> because project-key rule and others depend on it
