@@ -1,11 +1,11 @@
-import { commitlintJiraConstants } from 'commitlint-jira-utils'
+import { commitlintJiraConstants } from '@noahlaux/commitlint-jira-utils'
 import { CommitlintConfigJira } from '../@types'
 
 export const commitlintConfigJira: CommitlintConfigJira = {
   rules: {
-    // 2 -> because useful also on parsing
+    // 1 -> because useful also on parsing
     [commitlintJiraConstants.JIRA_RULES.taskIdEmpty]: [2, 'always'],
-    // 3 -> because project-key rule and others depend on it
+    // 2 -> because project-key rule and others depend on it
     [commitlintJiraConstants.JIRA_RULES.taskIdCase]: [
       2,
       'always',
@@ -14,16 +14,10 @@ export const commitlintConfigJira: CommitlintConfigJira = {
     // 4
     [commitlintJiraConstants.JIRA_RULES.taskIdProjectKey]: [2, 'always', false],
     // 5
-    [commitlintJiraConstants.JIRA_RULES.taskIdSeparator]: [
-      2,
-      'always',
-      commitlintJiraConstants.TASK_ID_SEPARATOR,
-    ],
-    // 6
     [commitlintJiraConstants.JIRA_RULES.taskIdMinLength]: [2, 'always', 3],
-    // 7
+    // 6
     [commitlintJiraConstants.JIRA_RULES.taskIdMaxLength]: [2, 'always', 9],
-    // 8
+    // 7
     [commitlintJiraConstants.JIRA_RULES.commitStatusCase]: [
       2,
       'always',

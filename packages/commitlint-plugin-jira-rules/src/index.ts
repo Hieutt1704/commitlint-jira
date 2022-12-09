@@ -3,7 +3,6 @@ import { CommitlintPluginJira } from '../@types'
 import jiraTaskIdMaxLengthRuleResolver from './rules/jiraTaskIdMaxLengthRuleResolver'
 import jiraTaskIdMinLengthRuleResolver from './rules/jiraTaskIdMinLengthRuleResolver'
 import jiraTaskIdEmptyRuleResolver from './rules/jiraTaskIdEmptyRuleResolver'
-import jiraTaskIdSeparatorRuleResolver from './rules/jiraTaskIdSeparatorRuleResolver'
 import jiraTaskIdCaseRuleResolver from './rules/jiraTaskIdCaseRuleResolver'
 import jiraCommitStatusCaseRuleResolver from './rules/jiraCommitStatusCaseRuleResolver'
 import jiraTaskIdProjectKeyRuleResolver from './rules/jiraTaskIdProjectKeyRuleResolver'
@@ -16,8 +15,6 @@ export const commitlintPluginJira: CommitlintPluginJira = {
       .taskIdMinLength]: jiraTaskIdMinLengthRuleResolver,
     [commitlintJiraConstants.JIRA_RULES
       .taskIdMaxLength]: jiraTaskIdMaxLengthRuleResolver,
-    [commitlintJiraConstants.JIRA_RULES
-      .taskIdSeparator]: jiraTaskIdSeparatorRuleResolver,
     [commitlintJiraConstants.JIRA_RULES.taskIdCase]: jiraTaskIdCaseRuleResolver,
     [commitlintJiraConstants.JIRA_RULES
       .taskIdProjectKey]: jiraTaskIdProjectKeyRuleResolver,

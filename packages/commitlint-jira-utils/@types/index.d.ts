@@ -1,7 +1,6 @@
 export interface Rules {
   commitStatusCase: string
   taskIdEmpty: string
-  taskIdSeparator: string
   taskIdCase: string
   taskIdMaxLength: string
   taskIdMinLength: string

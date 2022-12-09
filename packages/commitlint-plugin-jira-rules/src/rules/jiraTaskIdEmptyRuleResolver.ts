@@ -1,7 +1,4 @@
-import {
-  parseCommitMessage,
-  commitlintJiraConstants,
-} from 'commitlint-jira-utils'
+import { parseCommitMessage } from 'commitlint-jira-utils'
 import { TRuleResolver } from '../../@types'
 
 const jiraTaskIdEmptyRuleResolver: TRuleResolver = parsed => {
@@ -13,7 +10,7 @@ const jiraTaskIdEmptyRuleResolver: TRuleResolver = parsed => {
   const isRuleValid = commitMessage.commitTaskIds.length > 0
   return [
     isRuleValid,
-    `the commit message must provide minimum one task id followed by (${commitlintJiraConstants.COMMIT_MESSAGE_SEPARATOR}) symbol, if task does not have an id use a conventional task id e.g: "IB-0000${commitlintJiraConstants.COMMIT_MESSAGE_SEPARATOR} My commit message"`,
+    `the commit message must provide minimum one task id symbol, This format is two or more uppercase letters, followed by a hyphen and the issue number, for example: JRA-123.`,
   ]
 }
 export default jiraTaskIdEmptyRuleResolver
