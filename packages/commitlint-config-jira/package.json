@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-config-jira",
+  "name": "@mindblowing/commitlint-config-jira",
   "description": "A recomended config who contain preconfigured rules for jira commits messages style",
   "version": "1.6.4",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
-    "commitlint-jira-utils": "^1.6.4",
+    "@mindblowing/commitlint-jira-utils": "^1.6.4",
     "opencollective-postinstall": "^2.0.2"
   },
   "collective": {

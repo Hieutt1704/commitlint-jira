@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-plugin-jira-rules",
+  "name": "@mindblowing/commitlint-plugin-jira-rules",
   "description": "A plugin that implement all jira commits messages style rules and validate commit messages",
   "version": "1.6.4",
   "license": "MIT",
@@ -38,7 +38,7 @@
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
-    "commitlint-jira-utils": "^1.6.4"
+    "@mindblowing/commitlint-jira-utils": "^1.6.4"
   },
   "gitHead": "7f76615b342be1a91e2350158577141fca95a953"
 }

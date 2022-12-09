@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-jira-utils",
+  "name": "@mindblowing/commitlint-jira-utils",
   "description": "A set of utils for commitlint-jira monorepo",
   "version": "1.6.4",
   "license": "MIT",

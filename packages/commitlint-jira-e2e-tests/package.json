@@ -10,7 +10,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "commitlint-plugin-jira-rules": "^1.0.0",
-    "commitlint-config-jira": "^1.0.0"
+    "@mindblowing/commitlint-plugin-jira-rules": "^1.0.0",
+    "@mindblowing/commitlint-config-jira": "^1.0.0"
   }
 }
