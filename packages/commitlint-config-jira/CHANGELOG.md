@@ -3,17 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.7.0](https://github.com/Gherciu/commitlint-jira/compare/commitlint-config-jira@1.6.4...commitlint-config-jira@1.7.0) (2022-12-09)
-
-
-### Features
-
-* agnostic ticket format ([80b5a4c](https://github.com/Gherciu/commitlint-jira/commit/80b5a4c))
-
-
-
-
-
 ## 1.6.4 (2022-04-13)
 
 **Note:** Version bump only for package commitlint-config-jira
