@@ -20,4 +20,4 @@ export const COMMIT_DESCRIPTION_SEPARATOR = '\n'
  * > This format is two or more uppercase letters, followed by a hyphen and the issue number,
  * > for example JRA - 123.
  */
-export const COMMIT_TASK_ID_PATTERN = /([A-Z]{2,}-\d+)/g
+export const COMMIT_TASK_ID_PATTERN = /([A-Z_0-9]{2,5}-\d+)/g
