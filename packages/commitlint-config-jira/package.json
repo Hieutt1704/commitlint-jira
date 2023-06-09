@@ -1,7 +1,7 @@
 {
-  "name": "commitlint-config-jira",
+  "name": "hieutran-commitlint-config-jira",
   "description": "A recomended config who contain preconfigured rules for jira commits messages style",
-  "version": "1.6.5",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
@@ -31,6 +31,7 @@
     "postinstall": "opencollective-postinstall || exit 0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.9",
     "cross-env": "^5.2.1",
     "rimraf": "^2.6.3",
     "ts-loader": "^6.1.0",
@@ -39,7 +40,6 @@
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
-    "commitlint-jira-utils": "^1.6.5",
     "opencollective-postinstall": "^2.0.2"
   },
   "collective": {

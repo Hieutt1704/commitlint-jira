@@ -28,6 +28,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', prettierOptions],
+    "import/no-unresolved": "off"
   },
   settings: {
     'import/resolver': {

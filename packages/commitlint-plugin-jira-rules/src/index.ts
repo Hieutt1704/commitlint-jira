@@ -1,4 +1,4 @@
-import { commitlintJiraConstants } from 'commitlint-jira-utils'
+import { commitlintJiraConstants } from '../commitlint-jira-utils/src'
 import { CommitlintPluginJira } from '../@types'
 import jiraTaskIdMaxLengthRuleResolver from './rules/jiraTaskIdMaxLengthRuleResolver'
 import jiraTaskIdMinLengthRuleResolver from './rules/jiraTaskIdMinLengthRuleResolver'

@@ -1,7 +1,7 @@
 import {
   parseCommitMessage,
   commitlintJiraConstants,
-} from 'commitlint-jira-utils'
+} from '../../commitlint-jira-utils/src'
 
 import { TRuleResolver } from '../../@types'
 
