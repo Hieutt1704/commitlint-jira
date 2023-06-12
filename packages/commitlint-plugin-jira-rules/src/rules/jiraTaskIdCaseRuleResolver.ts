@@ -1,7 +1,4 @@
-import {
-  parseCommitMessage,
-  commitlintJiraConstants,
-} from '../../commitlint-jira-utils/src'
+import { parseCommitMessage, commitlintJiraConstants } from '../utils'
 import { TRuleResolver } from '../../@types'
 
 const jiraTaskIdCaseRuleResolver: TRuleResolver = (

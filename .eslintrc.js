@@ -8,10 +8,10 @@ const prettierOptions = JSON.parse(
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
-  'airbnb',
-  'plugin:@typescript-eslint/recommended',
-  'prettier/@typescript-eslint',
-  'plugin:prettier/recommended',
+    'airbnb',
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     project: './tsconfig.json',
@@ -28,12 +28,23 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', prettierOptions],
-    "import/no-unresolved": "off"
+    'import/no-unresolved': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
   settings: {
     'import/resolver': {
       node: {
-        'extensions': ['.ts', '.d.ts'],
+        extensions: ['.ts', '.d.ts'],
       },
     },
   },

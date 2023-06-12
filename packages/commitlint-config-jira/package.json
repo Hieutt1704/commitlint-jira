@@ -1,7 +1,7 @@
 {
   "name": "hieutran-commitlint-config-jira",
   "description": "A recomended config who contain preconfigured rules for jira commits messages style",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",

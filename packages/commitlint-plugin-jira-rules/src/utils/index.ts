@@ -1,8 +1,7 @@
 import * as commitlintJiraConstants from './commitlintJiraConstants'
 import parseCommitMessage from './parseCommitMessage'
-import { CommitlintJiraUtils } from '../@types'
 
-const commitlintJiraUtils: CommitlintJiraUtils = {
+const commitlintJiraUtils = {
   commitlintJiraConstants,
   parseCommitMessage,
 }

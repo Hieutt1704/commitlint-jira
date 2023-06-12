@@ -1,11 +1,10 @@
-import { TParseCommitMessage } from '../@types'
 import {
   COMMIT_TASK_ID_PATTERN,
   COMMIT_TASK_STATUS_PATTERN,
   COMMIT_DESCRIPTION_SEPARATOR,
 } from './commitlintJiraConstants'
 
-const parseCommitMessage: TParseCommitMessage = rawCommitMessage => {
+const parseCommitMessage = (rawCommitMessage: string) => {
   const commitMessage = rawCommitMessage
     .split(COMMIT_DESCRIPTION_SEPARATOR)
     .filter(Boolean)[0]
