@@ -1,7 +1,7 @@
 {
   "name": "hieutran-commitlint-plugin-jira-rules",
   "description": "A plugin that implement all jira commits messages style rules and validate commit messages",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": {
     "name": "Gherciu Gheorghe",
